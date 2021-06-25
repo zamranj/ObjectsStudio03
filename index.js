@@ -65,7 +65,7 @@ let candidateF = {
   'astronautID':890
 };
 
-let crew = [candidateB,candidateD,candidateF];
+let crew = [candidateB,candidateC,candidateF];
 
 console.log(crewMass(crew));
 console.log(fuelRequired(uncrewedRocketWeight, crewMass(crew)));
